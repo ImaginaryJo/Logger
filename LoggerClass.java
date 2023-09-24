@@ -8,8 +8,8 @@ import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
 public class LoggerClass {
-    //file path (feel free to change to suit your needs, professor)
-    private static final String filePath = "C:\\Users\\jmull\\tmp\\InventoryControl.log";
+    //file path
+    private static final String filePath = "C:\\Enter Path where you want logs kept";
     //logger
     private static final Logger logger = Logger.getLogger(LoggerClass.class.getName());
     //declaring handler variable
